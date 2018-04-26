@@ -12,25 +12,25 @@ import org.vaadin.treegrid.container.IndexedContainerHierarchicalWrapper;
 import org.vaadin.treegrid.event.CollapseEvent;
 import org.vaadin.treegrid.event.ExpandEvent;
 
-import com.vaadin.data.Collapsible;
-import com.vaadin.data.Container;
+import com.vaadin.v7.data.Collapsible;
+import com.vaadin.v7.data.Container;
 import com.vaadin.server.EncodeResult;
 import com.vaadin.server.JsonCodec;
 import com.vaadin.server.ServerRpcManager;
 import com.vaadin.shared.MouseEventDetails;
 import com.vaadin.shared.data.sort.SortDirection;
-import com.vaadin.shared.ui.grid.GridColumnState;
-import com.vaadin.shared.ui.grid.GridConstants;
-import com.vaadin.shared.ui.grid.GridServerRpc;
+import com.vaadin.v7.shared.ui.grid.GridColumnState;
+import com.vaadin.v7.shared.ui.grid.GridConstants;
+import com.vaadin.v7.shared.ui.grid.GridServerRpc;
 import com.vaadin.ui.ConnectorTracker;
-import com.vaadin.ui.Grid;
+import com.vaadin.v7.ui.Grid;
 
 import elemental.json.JsonObject;
 
 /**
  * A grid component for displaying tabular hierarchical data.
  * <p>
- * Grid is always bound to a {@link com.vaadin.data.Container.Indexed} but is not a Container of any kind on itself.
+ * Grid is always bound to a {@link com.vaadin.v7.data.Container.Indexed} but is not a Container of any kind on itself.
  * <p>
  * For more information please see {@link Grid}'s documentation.
  */

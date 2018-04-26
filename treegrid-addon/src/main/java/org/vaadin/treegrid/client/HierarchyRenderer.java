@@ -12,11 +12,11 @@ import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Widget;
 import com.vaadin.client.WidgetUtil;
-import com.vaadin.client.renderers.ClickableRenderer;
-import com.vaadin.client.renderers.Renderer;
-import com.vaadin.client.renderers.WidgetRenderer;
-import com.vaadin.client.widget.grid.RendererCellReference;
-import com.vaadin.shared.ui.grid.GridState;
+import com.vaadin.v7.client.renderers.ClickableRenderer;
+import com.vaadin.v7.client.renderers.Renderer;
+import com.vaadin.v7.client.renderers.WidgetRenderer;
+import com.vaadin.v7.client.widget.grid.RendererCellReference;
+import com.vaadin.v7.shared.ui.grid.GridState;
 
 import elemental.json.JsonObject;
 

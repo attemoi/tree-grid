@@ -7,11 +7,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import com.vaadin.data.Collapsible;
-import com.vaadin.data.Container;
-import com.vaadin.data.Item;
-import com.vaadin.data.Property;
-import com.vaadin.data.util.AbstractContainer;
+import com.vaadin.v7.data.Collapsible;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.Item;
+import com.vaadin.v7.data.Property;
+import com.vaadin.v7.data.util.AbstractContainer;
 
 public class ContainerCollapsibleWrapper extends AbstractContainer implements Container.Indexed, Collapsible,
         Container.ItemSetChangeNotifier, Container.ItemSetChangeListener {

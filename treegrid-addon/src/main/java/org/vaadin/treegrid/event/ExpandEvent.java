@@ -3,7 +3,7 @@ package org.vaadin.treegrid.event;
 import java.lang.reflect.Method;
 import java.util.EventListener;
 
-import com.vaadin.data.Item;
+import com.vaadin.v7.data.Item;
 import com.vaadin.ui.Component;
 import com.vaadin.util.ReflectTools;
 

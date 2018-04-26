@@ -2,9 +2,9 @@ package org.vaadin.treegrid.container;
 
 import java.util.List;
 
-import com.vaadin.data.Container;
-import com.vaadin.data.Item;
-import com.vaadin.data.util.ContainerHierarchicalWrapper;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.Item;
+import com.vaadin.v7.data.util.ContainerHierarchicalWrapper;
 
 public class IndexedContainerHierarchicalWrapper extends
         ContainerHierarchicalWrapper implements Container.Indexed {

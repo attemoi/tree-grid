@@ -2,8 +2,8 @@ package org.vaadin.treegrid.demo;
 
 import org.vaadin.treegrid.container.Measurable;
 
-import com.vaadin.data.Container;
-import com.vaadin.data.util.DefaultItemSorter;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.util.DefaultItemSorter;
 
 public class DemoItemSorter extends DefaultItemSorter {
     Container container;

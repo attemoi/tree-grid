@@ -1,6 +1,6 @@
 package org.vaadin.treegrid;
 
-import com.vaadin.ui.Grid;
+import com.vaadin.v7.ui.Grid;
 
 import org.vaadin.treegrid.client.NavigationExtensionConnector;
 

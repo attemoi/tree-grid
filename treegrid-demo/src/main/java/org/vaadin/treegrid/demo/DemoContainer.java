@@ -7,9 +7,9 @@ import java.util.Map;
 
 import org.vaadin.treegrid.container.Measurable;
 
-import com.vaadin.data.Collapsible;
-import com.vaadin.data.Item;
-import com.vaadin.data.util.HierarchicalContainer;
+import com.vaadin.v7.data.Collapsible;
+import com.vaadin.v7.data.Item;
+import com.vaadin.v7.data.util.HierarchicalContainer;
 import com.vaadin.server.Resource;
 
 public class DemoContainer extends HierarchicalContainer implements Collapsible, Measurable {

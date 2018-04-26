@@ -4,11 +4,11 @@ import com.google.gwt.dom.client.BrowserEvents;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.EventTarget;
 import com.vaadin.client.WidgetUtil;
-import com.vaadin.client.widget.escalator.RowContainer;
-import com.vaadin.client.widget.grid.events.AbstractGridMouseEventHandler;
-import com.vaadin.client.widget.grid.events.GridClickEvent;
-import com.vaadin.client.widgets.Grid;
-import com.vaadin.shared.ui.grid.GridConstants;
+import com.vaadin.v7.client.widget.escalator.RowContainer;
+import com.vaadin.v7.client.widget.grid.events.AbstractGridMouseEventHandler;
+import com.vaadin.v7.client.widget.grid.events.GridClickEvent;
+import com.vaadin.v7.client.widgets.Grid;
+import com.vaadin.v7.shared.ui.grid.GridConstants;
 
 /**
  * {@inheritDoc}

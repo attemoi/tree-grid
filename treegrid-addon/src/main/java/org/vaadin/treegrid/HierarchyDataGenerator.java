@@ -2,13 +2,13 @@ package org.vaadin.treegrid;
 
 import org.vaadin.treegrid.container.Measurable;
 
-import com.vaadin.data.Collapsible;
-import com.vaadin.data.Container;
-import com.vaadin.data.Item;
+import com.vaadin.v7.data.Collapsible;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.Item;
 import com.vaadin.server.JsonCodec;
-import com.vaadin.server.communication.data.DataGenerator;
-import com.vaadin.shared.ui.grid.GridState;
-import com.vaadin.ui.Grid;
+import com.vaadin.v7.server.communication.data.DataGenerator;
+import com.vaadin.v7.shared.ui.grid.GridState;
+import com.vaadin.v7.ui.Grid;
 
 import elemental.json.JsonObject;
 

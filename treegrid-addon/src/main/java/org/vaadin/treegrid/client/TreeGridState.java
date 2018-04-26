@@ -1,6 +1,6 @@
 package org.vaadin.treegrid.client;
 
-import com.vaadin.shared.ui.grid.GridState;
+import com.vaadin.v7.shared.ui.grid.GridState;
 
 public class TreeGridState extends GridState {
 

@@ -4,19 +4,20 @@ import java.util.Arrays;
 
 import javax.servlet.annotation.WebServlet;
 
+import com.vaadin.annotations.Widgetset;
 import org.vaadin.treegrid.TreeGrid;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.annotations.VaadinServletConfiguration;
-import com.vaadin.data.Property;
+import com.vaadin.v7.data.Property;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
-import com.vaadin.ui.ComboBox;
-import com.vaadin.ui.Grid;
+import com.vaadin.v7.ui.ComboBox;
+import com.vaadin.v7.ui.Grid;
 import com.vaadin.ui.UI;
-import com.vaadin.ui.VerticalLayout;
-import com.vaadin.ui.renderers.ImageRenderer;
+import com.vaadin.v7.ui.VerticalLayout;
+import com.vaadin.v7.ui.renderers.ImageRenderer;
 
 @Theme("demo")
 @Title("Vaadin TreeGrid Add-on Demo")

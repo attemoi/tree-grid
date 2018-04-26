@@ -7,12 +7,12 @@ import com.google.gwt.event.dom.client.KeyCodes;
 import com.google.gwt.user.client.Event;
 import com.vaadin.client.ServerConnector;
 import com.vaadin.client.extensions.AbstractExtensionConnector;
-import com.vaadin.client.widget.grid.EventCellReference;
-import com.vaadin.client.widget.grid.GridEventHandler;
-import com.vaadin.client.widgets.Grid;
+import com.vaadin.v7.client.widget.grid.EventCellReference;
+import com.vaadin.v7.client.widget.grid.GridEventHandler;
+import com.vaadin.v7.client.widgets.Grid;
 import com.vaadin.shared.communication.ServerRpc;
 import com.vaadin.shared.ui.Connect;
-import com.vaadin.shared.ui.grid.GridState;
+import com.vaadin.v7.shared.ui.grid.GridState;
 
 import elemental.json.JsonObject;
 

@@ -2,8 +2,8 @@ package org.vaadin.treegrid.container;
 
 import java.util.Collection;
 
-import com.vaadin.data.Container;
-import com.vaadin.data.util.GeneratedPropertyContainer;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.util.GeneratedPropertyContainer;
 
 public class GeneratedPropertyContainerHierarchicalWrapper<T extends Container.Indexed & Container.Hierarchical> extends
         GeneratedPropertyContainer implements Container.Hierarchical {
